@@ -1,7 +1,7 @@
 {
   "name": "express-stub",
   "version": "1.0.0",
-  "description": "express-stub",
+  "description": "Create express stub middleware for testing purposes",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test tape test.js | tap-spec",
@@ -9,7 +9,11 @@
     "lint": "eslint ."
   },
   "repository": "yoshuawuyts/express-stub",
-  "keywords": [],
+  "keywords": [
+    "express",
+    "stub",
+    "mock"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
